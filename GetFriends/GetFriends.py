@@ -1,7 +1,8 @@
 #Подключение к апи
 import vk
 
-session = vk.Session(access_token='f8e90311f8e90311f8e9031170f88fa391ff8e9f8e90311a320c63d9b78ceba7f75fc63')
+my_access_token = ''
+session = vk.Session(access_token=my_access_token)
 vk_api = vk.API(session)
 
 #Получение списка моих друзей
